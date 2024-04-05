@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>boostrap</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</head>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* box-sizing: border-box; */
+  }
+
+  .nav-text:hover {
+    color: brown !important;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: red !important;
+    transition: background-color 0.3s ease;
+    color: aqua !important;
+  }
+
+  .bobo-fm {
+    font-family: Roboto;
+  }
+
+  .open-s {
+    font-family: Open Sans;
+  }
+
+  .hero-3:hover {
+    background-color: #F3F3F3;
+  }
+
+  .subm {
+    border-radius: 0px;
+  }
+  .icon-nav{
+    position: absolute;
+    left: 80%;
+  }
+  .hero-se{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+  }
+  .facebook:hover{
+box-shadow: 0px 0px 7px #169ff1 inset,
+            0px 0px 7px #169ff1;
+  }
+  .twitter:hover{
+box-shadow: 0px 0px 7px #169ff1 inset,
+            0px 0px 7px #169ff1;
+  }
+  .instagram:hover{
+box-shadow: 0px 0px 7px #0679e6 inset,
+            0px 0px 7px #0679e6 ;
+  }
+
+  .top {transition: all .5s; }
+  .top:hover{transform: scale(1.1) rotate(12deg);}
+</style>
+
+<body>
+  <!-- <div class="jumbotron jumbotron-fluid"> -->
+  <!-- <div class="container"> -->
+  <div class="container py-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent bobo-fm">
+      <img src="image/undraw_aircraft_fbvl.png">
+      <span class="text-primary " style="font-size: 36px;">Tourz</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav  gap-5">
+          <a class="nav-item nav-text nav-link px-5 active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-text nav-link px-5 hover:bg-blue-700" href="#">Destinations</a>
+          <a class="nav-item nav-text nav-link px-5" href="#">Booking</a>
+          <a class="nav-item nav-text nav-link px-5" href="#">video</a>
+
+          <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+          <button type="button " class="btn btn-transparent text-primary border-{#6C63FF} border-primary">Sign
+            in</button>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <section>
+    <div class="container pt-5">
+      <div class=" bobo-fm row mt-5">
+        <div class="col-sm mt-5">
+          <h1 class="mt-5" style="font-size: 40px; ">Travel around the <br />World with us</h1>
+          <p style="font-size: 18px;">Plan and book your awesome trip such as <br />
+            airlines, car rentals, cruise lines, hotels,<br />
+            railways, travel insurance, and package <br />
+            tours with us.</p>
+          <button type="button" class="btn btn-primary " data-toggle="button" aria-pressed="false" autocomplete="off"
+            style="margin-top: 1rem;border-radius: 0px;">
+            Sign Up Now
+          </button>
+        </div>
+        <div class="col-sm">
+          <img src="image/undraw_travelers_qlt1.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="container-fluid p-0 mt-5">
+      <div class="row">
+
+        <div class=" col-lg-7 ">
+          <div class="row">
+            <div class="col-sm-2 mr-3 mt-3">
+              <img src="image/Rectangle 2.2.png" alt="">
+            </div>
+            <div class="col-sm-4 mr-5">
+              <img src="image/Rectangle 2.1.png" alt="" style="position: relative;">
+              <p class="bg-primary open-s" style="position:absolute; top:2rem;">$690</p>
+              <p style="position: absolute; bottom:4rem; left: 2rem;">park city, utah</p>
+
+              <div  style="display: flex;justify-content: space-between;">
+
+               <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+               </div>
+                <div class="open-s ml-3">14 days tour</div>
+              </div>
+
+              <div>
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right ml-5"></i>
+              </div>
+
+            </div>
+
+            <div class="col-sm-4 mt-4 open-s">
+              <img src="image/Rectangle 2.png" alt="">
+              <div style="position: absolute; bottom: 4rem; left: 2rem;">Banff, Alberta</div>
+              <p class="bg-primary" style="position:absolute; top:2rem;">$590</p>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-lg-5  ">
+          <h1 class="open-s" style="font-size: 36px; margin-top: 1.2rem; ">Amazing places to enjoy <br />
+            your travel</h1>
+          <img src="image/Rectangle.png">
+          <p class="bobo-fm mb-5" style="font-size: 15px; padding-top: 3rem; ">Plan and book your awesome trip such as
+            <br />
+            airlines, car rentals, cruise lines, hotels, <br />
+            railways, travel insurance, and package <br />
+            tours with us.
+          </p>
+          <button type="button" class="btn btn-primary bobo-fm mt-5" data-toggle="button" aria-pressed="false"
+            autocomplete="off" style="border-radius: 0px; font-size: 18px;width: 100px; margin-top: 2rem;">
+            Explore
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid mt-5">
+      <div class="text-center">
+        <h1 class="open-s">Featured Videos</h1>
+        <img src="image/Rectangle.png">
+        <p class="bobo-fm mb-5">Plan and book your awesome trip such as airlines, car rentals, cruise lines, <br />
+          hotels, railways, travel insurance, and package <br />
+          tours with us.</p>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row gutters-1">
+          <div class="col-7">
+            <div class="card bg-dark text-white">
+              <img src="image/Rectangle 2 (1).png" class="card-img" alt="Rectangle">
+              <div class="card-img-overlay">
+                <img src="image/9e15c8aa9d.png" class="play" style="position: absolute; top:10rem; left: 16rem;">
+                <p class="card-text open-s position:absolute;" style="position: absolute; bottom: 2rem; left: 3rem;">A
+                  vist to Torres del Paine National Park</p>
+                <p class="card-text" style="position: absolute;bottom: 1rem; left: 3rem;">07:59</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-5 ">
+            <div class="card mb-3" style="max-width: 540px; background-color: #F3F3F3; border: none;">
+              <div class="row no-gutters  hero-3">
+                <div class="col-md-4">
+                  <img src="image/Rectangle 4.png" class="card-img" alt="water">
+                </div>
+                <div class="col-md-7">
+                  <div class="card-body">
+                    <p class="card-text open-s ">A vist to Torres del Paine National Park <br />07:59</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px; background-color: transparent; border: none;">
+              <div class="row no-gutters hero-3">
+                <div class="col-md-4">
+                  <img src="image/Rectangle 4.1.png" class="card-img" alt="tree">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p class="card-text open-s">Catch a glimpse of this
+                      impressive desert oasis. <br />07:59</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px; background-color: transparent; border: none;">
+              <div class="row no-gutters hero-3">
+                <div class="col-md-4">
+                  <img src="image/Rectangle 4.2.png" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p class="card-text open-s">The Door to Hell - gateway
+                      to the underworld <br />07:59</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" border-0 style="max-width: 540px; background-color: transparent;border:none ">
+              <div class="row no-gutters hero-3">
+                <div class="col-md-4">
+                  <img src="image/Rectangle 4.3 (1).png" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8" style="text-align: justify;margin-top: -1.2rem;">
+                  <div class="card-body">
+                    <p class="card-text">TKuang Si Falls</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="" style="margin-top: 5rem; ">
+      <div class="text-center">
+        <h1 class="open-s ">Travel Categories</h1>
+        <img src="image/Rectangle.png">
+        <p class="bobo-fm">Plan and book your awesome trip such as airlines, car rentals, cruise lines, <br />
+          hotels, railways, travel insurance, and package <br />
+          tours with us.</p>
+      </div>
+      <div class="container-fluid mt-5 ">
+        <div class="row gutters-1 gallary">
+          <div class="col-1.5 mt-4 top">
+            <img src="image/Rectangle 2.5.png">
+          </div>
+          <div class="col-3 mt-4 top">
+            <img src="image/Rectangle 2.4.png ">
+            <p class="text-white" style="position: absolute; bottom:3rem;left: 2rem; ">Beaches and Island</p>
+          </div>
+          <div class="col-3 top ">
+            <img src="image/Rectangle 2.3.png ">
+            <p class="text-white" style="position: absolute; bottom:4rem;left: 2rem; ">Adventure</p>
+            <div class="mt-5 ml-5">
+              <i class="fa-solid fa-arrow-left "></i>
+              <i class="fa-solid fa-arrow-right ml-5"></i>
+            </div>
+          </div>
+          <div class="col-3 mt-4 top">
+            <img src="image/Rectangle 2.7.png">
+            <p class="text-white" style="position: absolute; bottom:3rem;left: 2rem; ">Mountain Climbing</p>
+          </div>
+          <div class="col-1.7 mt-4 top">
+            <img src="image/Rectangle 2.6.png">
+            <p class="text-white" style="position: relative; bottom:2rem;">Reservation and Travel</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="jumbotron jumbotron-fluid mt-4 bg-transparent">
+      <div class="container text-center">
+        <h3 class="display-4 open-s" style="font-size: 25; font-weight: 400;">Traveller’s Experience</h3>
+        <div></div>
+        <img src="image/Rectangle.png">
+        <p class="bobo-fm" style="font-size: 18px;">Plan and book your awesome trip such as airlines, car rentals,
+          cruise
+          lines,<br />
+          hotels, railways, travel insurance, and package <br />
+          tours with us.</p>
+
+        <div>
+          <img src="image/Ellipse.png" class="img-fluid">
+          <div class="arro" style="gap: 7rem; display: flex; justify-content: center;">
+           <div> <i class="fa-solid fa-arrow-left "></i></div>
+           <div> <i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+        </div>
+        <p class="open-s" style="font-weight: 700;">John Doe</p>
+        <i class="fa-regular fa-circle"></i>
+        <i class="fa-solid fa-circle"></i>
+        <i class="fa-regular fa-circle"></i>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section>
+    <div class="card bg-dark text-white mt-5  ">
+      <img src="image/rectangle 6.png" class="card-img" alt="...">
+      <div class="card-img-overlay text-center mt-5 hero-se ">
+        <h5 class="card-title open-s mt-5 ml-0">COME EXPERIENCE THE WORLD WITH US</h5>
+        <h1 class="card-text " style="font-size: 45px; font-weight: 700; ">Enjoy 40% off on First Trip <h1>
+
+            <div class="ml-5 ">
+              <form>
+                <div class="form-row align-items-center  justify-content-center">
+                  <div class="col-auto my-1  ">
+                    <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                    <select class="custom-select mr-sm-2 bg-transparent border-white" id="inlineFormCustomSelect">
+                      <option selected>Destinations</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+              </form>
+
+              <form>
+                <div class="form-row align-items-center">
+                  <div class="col-auto my-1  ">
+                    <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect ">Preference</label>
+                    <select class="custom-select mr-sm-1 bg-transparent border-white text-white" id="inlineFormCustomSelect">
+                      <option selected>Packages</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+              </form>
+
+              <form>
+                <div class="form-group mx-sm-3 mt-4 ">
+                  <label for="inputdate" class="sr-only ">date</label>
+                  <input type="date" class="form-control bg-transparent border-white" id="inputPassword2"
+                    placeholder="date">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary mt-2 subm">Book Now</button>
+
+            </form>
+      </div>
+    </div>
+  </section>
+
+  <section>
+
+    <div class="container py-3">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent bobo-fm">
+        <div class="collapse navbar-collapse  justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav  gap-5">
+            <a class="nav-item nav-text nav-link px-5 active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-text nav-link px-5 hover:bg-blue-700" href="#">Destinations</a>
+            <a class="nav-item nav-text nav-link px-5" href="#">Booking</a>
+            <a class="nav-item nav-text nav-link px-5" href="#">video</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+    <div>
+      
+      <div class="ml-5 mt-5 " style="display: flex; ">
+        <p class="ml-5 open-s">Copyright 1997 - 2019 </p>
+       <div> <p class="open-s text-{#9B9B9B} ml-5">Tourz - Travel Around the World</p></div>
+       <div class="ml-5 icon-nav">
+        <i class="fa-brands fa-square-facebook  facebook"></i>
+        <i class="fa-brands fa-square-twitter twitter"></i>
+        <i class="fa-brands fa-instagram instagram"></i>
+      </div>
+      </div>
+     
+    </div>
+
+
+  </section>
+
+</body>
+
+</html>
